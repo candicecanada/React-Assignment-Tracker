@@ -34,7 +34,7 @@ export function Assignment({numCreated, setNumCreated, numCompleted, setNumCompl
         {isCompleted ? <TbCircleCheckFilled /> : <TbCircle />};
       </button>
 
-      <p className={isCompleted ? styles.textCompleted : styles.p}>{assignment.id} : {assignment.title}</p>
+      <p className={isCompleted ? styles.textCompleted : styles.p}>{assignment.title}</p>
 
       <button className={styles.deleteButton} 
       onClick={() => {
